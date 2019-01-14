@@ -1,0 +1,5 @@
+# Fichier robots.txt pour le site : http://www.declicludik.gc-infographie.fr/
+User-agent: *
+Disallow: /http://www.declicludik.gc-infographie.fr/admin-declic/
+Disallow: /http://www.declicludik.gc-infographie.fr/img
+Sitemap: http://www.declicludik.gc-infographie.fr/sitemap.xml

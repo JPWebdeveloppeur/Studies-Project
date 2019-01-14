@@ -1,0 +1,75 @@
+/*==================*\
+    Class de couleur 
+  \*==================*/
+  .slids {width: 300px;height: 210px;}
+  .bg-blue { background-color: #339BD1!important; }
+  .bg-blue a:hover {color:#FFE74D!important;}
+  .bg-green { background-color: #8dc958!important;}
+  .bg-green a:hover { color: #196ABF!important;}
+  .bg-accord {background-color: #8CC847!important;}
+  .bg-accord a:hover {color: #453731!important;}
+  .bg-red {background-color: #D72127!important;}
+  .bg-red a:hover{color:#443730!important;}
+  .bg-Brown {background-color: #443730!important;}
+  .bg-grey {background-color: #C3C7CC!important;}
+  .bg-grey a:hover {color: #196ABF!important;}
+  .bg-orange {background-color: #EA8617!important;}
+
+
+/*==================*\
+      Menu 
+\*==================*/
+  .navbar-inverse .navbar-toggle { border-color: #8CC857;}
+  .navbar-inverse .navbar-toggle:hover,
+  .navbar-inverse .navbar-toggle:focus { background-color: #453731;}
+  .navbar-inverse {background-color: #453731;background-image: none;border-radius: 0px;}
+  .navbar-header { background-color: #453731!important;}
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border-color: #453731;}
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a { background-color:#453731; background-repeat: no-repeat; box-shadow: none; background-image: none;outline:0;font-family: "cooper";font-size: 14px;}
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:focus { color: #fff; background-color: #453731;}
+  .navbar-inverse .navbar-nav > .active > a:hover {color: #8CC857;background-color:#453731;}
+  .navbar-inverse .navbar-brand {color: #fff;outline:0;font-family: "cooper";font-size: 16px;} 
+  .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus { color: #fff; color: #8CC857;} 
+  .navbar-inverse {float: left;width: 100%;margin:0;}
+  .navbar-collapse a{ outline:0; } 
+  .navbar-toggle .icon-bar:nth-of-type(2) { top: 1px;}
+  .navbar-toggle .icon-bar:nth-of-type(3) { top: 2px;}
+  .navbar-toggle .icon-bar { position: relative; transition: all 500ms ease-in-out;}
+  .navbar-toggle.active .icon-bar:nth-of-type(1) { top: 6px; transform: rotate(45deg);}
+  .navbar-toggle.active .icon-bar:nth-of-type(2) { background-color: transparent;}
+  .navbar-toggle.active .icon-bar:nth-of-type(3) { top: -6px; transform: rotate(-45deg);}
+
+      
+/*==================*\
+     Page d'accueil 
+\*==================*/
+.mbr-article {padding: 10px;}
+.evenmentexte {padding: 10px;}
+.panel-group .panel {padding: 10px 0 0 10px;}
+.panel-title > a {color:#453731; }
+.panel-title > a:hover {color:#8CC857; }
+
+/*======================*\
+    Page nous connaitre
+\*======================*/
+.nousconaitre {padding: 10px;}
+.thumb {margin-top:10px;}
+#googlemap {padding-top:10px;}
+/*==================*\
+    Page Evenements 
+\*==================*/
+.textevenement {padding: 10px;}
+/*==================*\
+     Page Ludoteque 
+\*==================*/
+.texteludoteque {padding: 10px;}
+/*==================*\
+      la boite 
+\*==================*/
+.contenuboite {padding: 10px;}
+      
+      
+
+
+

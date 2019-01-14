@@ -1,0 +1,414 @@
+/*====================================*\
+	Base styles: opinionated defaults 
+\*====================================*/
+ 
+@font-face { font-family: "cooper"; src: url("../fonts/Cooper-Std-Black.ttf");}
+@font-face { font-family: "cooper-lt"; src: url("../fonts/Cooper-light.ttf");}
+
+  /*==================*\
+    Class de couleur 
+  \*==================*/
+  .slids {width: 300px;height: 210px;}
+  .bg-blue { background-color: #339BD1!important; }
+  .bg-blue a:hover {color:#FFE74D!important;}
+  .bg-green { background-color: #8dc958!important;}
+  .bg-green a:hover { color: #196ABF!important;}
+  .bg-accord {background-color: #8CC847!important;}
+  .bg-accord a:hover {color: #453731!important;}
+  .bg-red {background-color: #D72127!important;}
+  .bg-red a:hover{color:#443730!important;}
+  .bg-Brown {background-color: #443730!important;}
+  .bg-grey {background-color: #C3C7CC!important;}
+  .bg-grey a:hover {color: #196ABF!important;}
+  .bg-orange {background-color: #EA8617!important;}
+
+  .error404 {
+  background-image: url("../img/template/404.jpg");
+  width: 2000px;
+  height: 800px;
+  margin: 0;
+  }
+
+body {font-family: "cooper-lt";}
+html {color: #222;font-size: 1em;line-height: 1.4;}
+
+::-moz-selection {background: #b3d4fc;text-shadow: none;}
+::selection {background: #b3d4fc;text-shadow: none;}
+
+/** A better looking default horizontal rule*/
+
+hr {display: block;height: 1px;border: 0;border-top: 1px solid #ccc;margin: 1em 0;padding: 0;}
+
+audio,canvas,iframe,img,svg,video {vertical-align: middle;}
+
+/** Remove default fieldset styles.*/
+
+fieldset {border: 0;margin: 0;padding: 0;}
+
+/** Allow only vertical resizing of textareas.*/
+
+textarea {resize: vertical;}
+
+/*=========================*\
+   Browser Upgrade Prompt
+\*=========================*/
+
+.browserupgrade {margin: 0.2em 0;background: #ccc;color: #000;padding: 0.2em 0;}
+
+/*=================================================*\
+  Styles Css de base  inférieur à 320px de largeur
+\*=================================================*/
+
+	#logo { background-color: #FFE74D;width: 100%; }
+	#header-logo {margin: 10px 0 ;}
+
+  /*==================*\
+     MENU PRINCIPALE
+  \*==================*/
+  
+  .navbar-inverse .navbar-toggle { border-color: #8CC857;}
+  .navbar-inverse .navbar-toggle:hover,
+  .navbar-inverse .navbar-toggle:focus { background-color: #453731;}
+  .navbar-inverse {background-color: #453731;background-image: none;border-radius: 0px;}
+  .navbar-header { background-color: #453731; }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border-color: #453731;}
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a { background-color:#453731; background-repeat: no-repeat; box-shadow: none; background-image: none;outline:0;font-family: "cooper";font-size: 14px;}
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:focus { color: #fff; background-color: #453731;}
+  .navbar-inverse .navbar-nav > .active > a:hover {color: #8CC857;background-color:#453731;}
+  .navbar-inverse .navbar-brand {color: #fff;outline:0;font-family: "cooper";font-size: 16px;} 
+  .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus { color: #fff; color: #8CC857;} 
+  .navbar-inverse {float: left;width: 100%;margin:0;}
+  .navbar-collapse a{ outline:0; } 
+  .navbar-toggle .icon-bar:nth-of-type(2) { top: 1px;}
+  .navbar-toggle .icon-bar:nth-of-type(3) { top: 2px;}
+  .navbar-toggle .icon-bar { position: relative; transition: all 500ms ease-in-out;}
+  .navbar-toggle.active .icon-bar:nth-of-type(1) { top: 6px; transform: rotate(45deg);}
+  .navbar-toggle.active .icon-bar:nth-of-type(2) { background-color: transparent;}
+  .navbar-toggle.active .icon-bar:nth-of-type(3) { top: -6px; transform: rotate(-45deg);}
+
+  /*==================*\
+      Carousel Home
+  \*==================*/
+
+  ul, ol {
+    margin-bottom: -9px;
+    margin-top: 0;
+  }
+
+  .carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    width: 10px;
+  }
+
+  /*==================*\
+      Footer    
+  \*==================*/
+
+  #footer > .copyright {background-color: #FFE74D;width: 100%;color:#453731;}
+  #footer > .copyright p {text-align: right;margin-right: 2%;padding:2px 0 ;margin-bottom: 0}
+  #footer {margin-top: 20px;}
+  #footer h1 { font-size: 20px;font-family: "cooper"; }
+  #footer h2, h3 {font-size: 16px;font-family: "cooper";}
+  #footer h3 {text-align: center;}
+  p {font-family: "cooper-lt";}
+  #footer  {background-color:#453731;color: #fff;font-size: 12px;}
+  #bandeaureseaux {margin-top: 5%;}
+  #bandeaureseaux img {margin-left: 10px; margin-top: 5px; text-align: center;}
+  #bandeaureseaux #tel {margin-left: 7%;}
+  #bandeaunom {text-align: center;}
+
+/*====================================*\
+            Page d'accueil 
+\*====================================*/
+	.home-block { margin-top: 20px;margin-bottom: 20px;}
+  	.home-block-header h2 {
+	    display: inline-block;
+	    font-family:"cooper";
+	    font-size: 18px;
+	    background-color: #339BD1;
+	    color:#fff;
+	    padding:6px 5%;
+	    margin: 0;}
+
+	.home-block-header h2 + h2{
+	    /*color:#555;*/
+	    background-color: #FFA247;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    margin-left: 0px;}
+
+	.home-block .home-block-header + div {border-left: 5px solid  #339BD1;}
+  	.home-block .home-block-header + div:not(.no-padding) {padding: 7px;}
+	.home-block.red h2 { background-color: red;}
+  	.home-block.red .home-block-header + div { border-left-color: red;}
+
+	/*=================*\
+	      Actualité
+	\*==================*/
+	    .panel-group .panel {margin-bottom: 0;border-radius: 4px;border: none;}
+	    .panel-heading { padding: 5px 15px; color: #fff; background-color: #453731; background-image: none;}
+	    #actutexte p {margin-top:2%;width: 100%;}
+	    .panel-default > .panel-heading { background-color:#453731; border-color: #ddd; color: #fff; background-image: none;}
+	    .panel-heading h4 a:hover {color: #8dc958;text-decoration: none;}
+	    #accordion div:nth-child(even) .panel-heading{background-color: #8dc958!important;}
+	    #accordion div:nth-child(odd) .panel-heading{background-color: #C58B40!important;}
+
+	/*==================*\
+	      Jeux à la une 
+	\*==================*/
+
+    	.embed-responsive-item {margin-left: 2%;margin-top:2%;padding-bottom:2%; }
+
+  	/*=============================*\
+      Meilleurs Location du mois 
+  	\*=============================*/
+
+    	#locations {margin-top: 2%;text-align: center;width: 100%;}
+    	.header_location {display:inline-block;margin-right: -3px;}
+
+ 	/*====================*\
+      Boutique en ligne
+  	\*====================*/
+
+	    .mbr-section__container { text-align: center; }
+	    .btn-default { background-image:none; background-repeat:no-repeat; border-color: #ccc; text-shadow:none; background-color: #C58B40; color: #fff; font-family:"Cooper-light";}
+	    .btn-default:focus, .btn-default:hover{ background-color: #C58B40!important; background-position:0 -15px; outline: none; }
+	    .btn-default:focus, .btn-default.focus { border-color: #FFA247; background-position:0 -15px; }
+	    .btn-default:hover{ border-color: #ccc; color: #fff; background-color: #FFA247 }
+	    .btn-default.active, .btn-default:active { background-color: #FFA247; border-color: #fff; color: #fff; }
+
+	/*============================*\
+      A l'intérieur de la boite 
+  	\*============================*/
+
+	    #laboite p {text-align: center;}
+	    .thumbadmin {margin-bottom: 20px;padding: 7px;float: none;display: inline-block;}
+
+  	/*==================*\
+      Evenements     
+  	\*==================*/
+  
+  		.evenmentexte{margin-bottom: 20px;}
+                
+/*====================================*\
+          Page Nous Connaitre 
+\*====================================*/
+
+    .thumbnail p {text-align: center;margin-top: 5px;}
+    .map-responsive{ overflow:hidden; padding-bottom:56.25%; position:relative; height:0;}
+    .map-responsive iframe{ left:0; top:0; height:100%; width:100%; position:absolute; }
+    .nousconaitre > ul {margin-bottom: 5px;}
+
+/*====================================*\
+          Page Evenement 
+\*====================================*/
+
+    input, button, select, textarea { border-color: #000; border-radius: 5px; font-family: inherit; font-size: inherit; line-height: inherit; }
+    label { display: inline-block; font-weight: bold; margin-bottom: 5px; margin-left: 2%; margin-top: 10px; width: 98%; }
+    textarea, button { margin-left: 20px;}
+    textarea,.ludo {margin:10px 0 0 10px;width: 96%;}
+    #nom, #prenom, #mail, #telephone {width: 98%;padding: 3px;}
+    label #datepicker-from, #datepicker-to {width: 98%;}
+	   #listevenement,#datepicker {width:98%;}
+    .textevenement a:hover {color: #94C83D;text-decoration: none;}
+    .sub {margin: 10px;}
+    .formulairereservation > .success {display: block;
+		width: 90%;
+		margin: 20px 3% 3% 3%;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		background: #E2F6C5 url(../img/template/back/icn_alert_success.png) no-repeat;
+		background-position: 10px 10px;
+		border: 1px solid #79C20D;
+		color: #32510F;
+		padding: 10px 0;
+		text-indent: 40px;
+		font-size: 14px;
+	}
+
+	.formulairereservation > .danger {display: block;
+		width: 90%;
+		margin: 20px 3% 3% 3%;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		background: #F3D9D9 url(../img/template/back/icn_alert_error.png) no-repeat;
+		background-position: 10px 10px;
+		border: 1px solid #D20009;
+		color: #7B040F;
+		padding: 10px 0;
+		text-indent: 40px;
+		font-size: 14px;
+	}
+
+/*====================================*\
+          Page Ludotéques 
+\*====================================*/
+
+    #jeux {width: 100%;}
+    #reservation {margin-left: 10px;}
+
+/*====================================*\
+   	Page à l'interieur de la boite
+\*====================================*/
+	.thumbvideo { display: block;padding-top: 7px;}.
+
+/*================*\
+   Helper classes
+\*================*/
+
+.hidden {display: none !important;}
+
+.visuallyhidden {border: 0;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
+
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {clip: auto;height: auto;margin: 0;overflow: visible;position: static;width: auto;}
+
+.invisible {visibility: hidden;}
+
+.clearfix:before,.clearfix:after {content: " "; /* 1 */display: table; /* 2 */}
+
+.clearfix:after {clear: both;}
+
+/*==========================================================================*\
+   Media Queries Mobile First basées sur les valeurs de 
+   http://www.mydevice.io/devices/#sortOthers
+   10 points de ruptures,
+\*==========================================================================*/
+
+@media screen and (min-width: 480px){
+    #bandeaureseaux #tel {margin-left: 4%;}
+    #bandeaureseaux img {display: inline-block;}
+    #bandeaureseaux {margin-top: 2%;padding-left: 7%;}
+    .input-group { width: 60%;}
+    .formulairereservation > .success {display: block; width: 70%; }
+    .formulairereservation > .danger {display: block; width: 70%; }
+
+@media screen and (min-width: 600px){
+    #bandeaureseaux img {display: inline-block;}
+    #bandeaureseaux {margin-top: 2%;padding-left: 10%;}
+}
+
+@media screen and (min-width: 768px){
+    .input-group { width: 40%;}
+    .navbar-collapse.collapse { display: none !important; }
+    .navbar-collapse.collapse.in { display: block !important;box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;}
+    .navbar-nav > li { float: none;}
+    .navbar-header { float: none;}
+    .navbar-nav { margin: 7.5px -15px 0 5px;}
+    .navbar-toggle {
+	    background-color: transparent;
+	    background-image: none;
+	    border: 1px solid transparent;
+	    border-radius: 4px;
+	    float: right;
+	    margin-bottom: 8px;
+	    margin-right: 15px;
+	    margin-top: 8px;
+	    padding: 9px 10px;
+	    position: relative;
+	    display: block;
+	}
+
+    .navbar-collapse {
+	    border-top: 1px solid transparent;
+	    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+	    overflow-x: visible;
+	    padding-left: 0px;
+	    padding-right: 15px;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .navbar-toggle {display: none;}
+    .navbar-collapse.collapse {display: block !important;}
+    .navbar-header { float: left; }
+    .navbar-nav > li { float: left;}
+    .navbar-nav {margin: 0px;}
+    .thumbvideo { width: 25%;}
+
+}
+@media screen and (min-width: 1200px){.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {margin-left: 10%;}}
+
+@media screen and (min-width: 1210px){
+    .navbar-nav {margin: 0px;}
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {margin-left: 10%;}
+    .input-group { width: 30%;}
+    .thumbvideo { width: 25%;}
+
+}
+
+@media screen and (min-width: 1366px){
+    .navbar-nav {margin: 7px;}
+    .input-group {width: 25%;}
+    label { display: inline-block; font-weight: bold; margin-bottom: 5px; margin-left: 2%; margin-top: 10px; width: 35%; }
+    textarea, button { margin-left: 20px;}
+    textarea,.ludo {margin:10px 0 0 10px;width: 72%;}
+    #nom, #prenom, #mail, #telephone {padding: 3px;}
+    label #datepicker-from, #datepicker-to {width: 98%;}
+    .sub {margin-left: 2%;}
+}
+@media screen and (min-width: 1350px){
+  .navbar-nav {margin: 0px;}
+  .thumbvideo { width: 25%;}
+}
+@media screen and (min-width: 1400px){
+  .navbar-nav {margin: 0px;}
+}
+@media screen and (min-width: 1800px){
+  .navbar-nav {margin:7px;}
+}
+
+
+@media screen and (min-width: 1920px){
+    #bandeaureseaux #tel {margin-left: 1%;}
+    #bandeaureseaux {margin-top: 2%;padding-left: 16%;}
+    #bandeaureseaux img {display: inline-block;}
+    .input-group { width: 25%; }
+    .home-block-header h2 + h2{margin-left: -4px;}
+    .navbar-nav > li { float: left; margin-top: -7px;}
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {margin-left: 10%;margin-right: 0;}
+
+}
+
+@media only screen and (min-width: 35em) {/* Style adjustments for viewports that meet the condition */}
+
+@media print,(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 1.25dppx),(min-resolution: 120dpi){/* Style adjustments for high resolution devices */}
+
+/*============================================================*\
+   Print styles.Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+\*============================================================*/
+
+@media print {*,*:before,*:after,*:first-letter,*:first-line {background: transparent !important;color: #000 !important; /* Black prints faster:
+
+http://www.sanbeiji.com/archives/953 */box-shadow: none !important;text-shadow: none !important;}
+
+a,a:visited {text-decoration: underline;}
+
+a[href]:after {content: " (" attr(href) ")";}
+
+abbr[title]:after {content: " (" attr(title) ")";}
+
+a[href^="#"]:after,a[href^="javascript:"]:after {content: "";}
+
+pre,blockquote {border: 1px solid #999;page-break-inside: avoid;}
+
+thead { display: table-header-group; }
+
+tr,img { page-break-inside: avoid;}
+
+img {max-width: 100% !important;}
+
+p,h2,h3 {orphans: 3;widows: 3;}
+
+h2,h3 {page-break-after: avoid;}
