@@ -12,7 +12,7 @@ define('BASEURL', $_SERVER["DOCUMENT_ROOT"]);
 
 function connect() {
 	// on instancie une connexion à la base via mysqli
-	$connect = mysqli_connect("**********", "**********", "**********", "**********");
+	$connect = mysqli_connect("***********", "***********", "***********", "***********");
 	// on précise l'encodage des informations échangées avec la base
 	mysqli_set_charset($connect, "utf8");
 

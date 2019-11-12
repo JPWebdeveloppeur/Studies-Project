@@ -5,16 +5,16 @@
 
 define('BASEURL', $_SERVER["DOCUMENT_ROOT"]."/admin-declic/");
 
-define('URL', "http://declicludik.gc-infographie.fr/admin-declic/");
+define('URL', "***********");
 
-define('URLPublic', "http://declicludik.gc-infographie.fr/");
+define('URLPublic', "***********");
 
-define('BASEURLimg', "/home/gcinfogr/declicludik/img/carousel/");
+define('BASEURLimg', "***********");
 
 
 function connect() {
 	// on instancie une connexion à la base via mysqli
-	$connect = mysqli_connect("mysql51-118.perso", "gcinfographie", "SeFYHdeS9guy", "gcinfographie");
+	$connect = mysqli_connect("***********", "***********", "***********", "***********");
 	// on précise l'encodage des informations échangées avec la base
 	mysqli_set_charset($connect, "utf8");
 
